@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    background-color:#B17F59;
+    text-align: center;
+}
+
+.menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: inline-flex;
+
+}
+
+.menu li{
+    position: relative;
+    padding:  15px 20px;
+    color: #A5B68D;
+    text-decoration: none;
+}
+
+.menu li:hover .submenu{
+    display:block
+}
+
+
+a{
+    color: #EDE8DC;
+}
