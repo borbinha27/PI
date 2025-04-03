@@ -1,0 +1,23 @@
+.main-element{
+    position: static;
+    left: 10px;
+    bottom: 10px;
+    background-color: yellow;
+    padding: 10px;
+}
+
+.sibiling-element{
+    padding: 10px;
+    background-color: aliceblue;
+}
+
+.parent-element{
+    position: relative;
+    height: 100px;
+    padding: 10px;
+    background-color: aqua;
+}
+
+html{
+    height: 800px;
+}
